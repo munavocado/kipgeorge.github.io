@@ -1,0 +1,28 @@
+.portfolio {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.portfolio__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  height: 300px;
+  margin: 15px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.portfolio__card h2 {
+  font-weight: 100;
+}
+
+.portfolio__card:hover h2 {
+  color: rgb(2, 100, 85);
+}
+
+.portfolio__card img {
+  width: 100%;
+}
